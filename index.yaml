@@ -3,12 +3,12 @@ entries:
   my-first-chart:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-03-18T20:29:35.611619956-03:00"
+    created: "2025-03-18T21:22:52.757717529-03:00"
     description: A Helm chart for Kubernetes
-    digest: 35828d6c8c18043e54b3c36e2b71a992969726e07cd4c1bc25e3da39e0c35b1e
+    digest: 1eea2c1e0bb05a3953f89d1c5477a8d1d1a5f1411407388ba6d1efbf6bb2dfd0
     name: my-first-chart
     type: application
     urls:
-    - my-first-chart-0.1.0.tgz
+    - https://raw.githubusercontent.com/xcirel/helm-charts/main/my-first-chart-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-18T20:29:35.611100085-03:00"
+generated: "2025-03-18T21:22:52.75734849-03:00"
