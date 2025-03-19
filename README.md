@@ -42,3 +42,12 @@ helm repo update
 ```bash
 helm install my-first-chart xcirel/my-first-chart -n my-first-chart --create-namespace
 ```
+
+## To generate a new version of the Helm Chart
+
+After changing the Helm Chart `Chart.yaml`, you need to package it again.
+
+```bash
+helm package my-first-chart
+helm repo index --url https://raw.githubusercontent.com/xcirel/helm-charts/main/ .
+```
