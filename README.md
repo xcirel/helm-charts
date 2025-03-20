@@ -51,3 +51,22 @@ After changing the Helm Chart `Chart.yaml`, you need to package it again.
 helm package my-first-chart
 helm repo index --url https://raw.githubusercontent.com/xcirel/helm-charts/main/ .
 ```
+
+## Publish a new Chart
+
+```bash
+helm pull prometheus-community/kube-prometheus-stack --version 69.8.0
+```
+
+Unpack the chart and copy the files to the chart folder. Made your changes and package it again.
+
+```bash
+helm package kube-prometheus-stack
+helm repo index --url https://raw.githubusercontent.com/xcirel/helm-charts/main/ .
+```
+
+```bash
+git add .
+git commit -m "Add kube-prometheus-stack"
+git push -u origin main
+```
