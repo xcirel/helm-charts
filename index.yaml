@@ -2,8 +2,18 @@ apiVersion: v1
 entries:
   my-app:
   - apiVersion: v2
+    appVersion: 2.0.0
+    created: "2025-04-02T10:43:43.797752802-03:00"
+    description: A Helm chart for Kubernetes
+    digest: dd1f9709462d4156f1af67df979aad8af1716ec7afc97ceada4caf70a7d4e387
+    name: my-app
+    type: application
+    urls:
+    - https://raw.githubusercontent.com/xcirel/helm-charts/main/packages/my-app-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-04-02T09:55:05.290548446-03:00"
+    created: "2025-04-02T10:43:43.79707317-03:00"
     description: A Helm chart for Kubernetes
     digest: 06e5dd3bc7bfb06ebe330999d8cb36b1b713c3824d409b41b849bf5bc9d4457d
     name: my-app
@@ -11,4 +21,4 @@ entries:
     urls:
     - https://raw.githubusercontent.com/xcirel/helm-charts/main/packages/my-app-0.1.0.tgz
     version: 0.1.0
-generated: "2025-04-02T09:55:05.290156448-03:00"
+generated: "2025-04-02T10:43:43.796102046-03:00"
